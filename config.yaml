@@ -1,0 +1,87 @@
+# Site Configuration
+
+# Theme, mapped to the directory: ./theme/xxxx
+theme: default
+
+# HTML Language setting
+lang: "en"
+
+# Output Directory
+output: "./dist/"
+
+# Plugins, implemented in ./plugins/PLUGIN_NAME
+# Use {{ vars.PLUGIN_NAME }} in the settings below
+
+# The output of the plugin can be used below, e.g., {{vars.MediumFollowersCountPlugin}}
+plugins:
+  # Automatically fetch Github repo star count
+  - GithubRepoStarsCountPlugin:
+      - Elite-Kode/elitebgs
+      - Elite-Kode/bgsbot
+      - Elite-Kode/EDMC-Discord-Presence
+
+# HTML Title
+title: "Sayak Mukhopadhyay"
+
+# Avatar image path
+avatar: "./images/profile.jpeg"
+
+# Name section text
+name: "Sayak Mukhopadhyay"
+
+# Tagline section text
+tagline: >-
+  Full stack software developer and platform engineer from India 🇮🇳 and interested in anything technological.
+
+# List of links
+# icon: Use Font Awesome icons (https://fontawesome.com/search?o=r&m=free)
+# text: The displayed text for the link
+# title: The url title
+# url: The URL of the link
+# alt: Alternative text for accessibility
+# target: `_blank` opens in a new tab, `_self` opens in the same frame
+links:
+  - icon: "fa-solid fa-globe"
+    text: "Blog"
+    url: "https://sayakm.me"
+    title: "Sayak's Blog"
+    target: "_blank"
+  - icon: "fa-solid fa-briefcase"
+    text: "Beez Innovation Labs"
+    url: "https://www.beezlabs.com"
+    title: "Beez Innovation Labs"
+    target: "_blank"
+
+
+# List of social media links
+# icon: Use Font Awesome icons (https://fontawesome.com/search?o=r&m=free)
+# title: The url title
+# url: The URL of the social media link
+# alt: Alternative text for accessibility
+# target: _blank opens in a new tab, _self opens in the same frame
+socials:
+  - icon: "fa-brands fa-github"
+    url: "https://github.com/SayakMukhopadhyay"
+    title: "Sayak's GitHub"
+    target: "_blank"
+  - icon: "fa-brands fa-x-twitter"
+    url: "https://twitter.com/defineSayak"
+    title: "Sayak's Twitter"
+    target: "_blank"
+  - icon: "fa-brands fa-linkedin"
+    url: "https://www.linkedin.com/in/sayakmukhopadhyay/"
+    title: "Sayak's LinkedIn"
+    target: "_blank"
+  - icon: "fa-solid fa-envelope"
+    url: "mailto:mukhopadhyaysayak@gmail.com"
+    title: "Email: mukhopadhyaysayak@gmail.com"
+    target: "_blank"
+
+# Footer text
+footer: >
+  Hi there! Follow me on X, GitHub, or stay connected on LinkedIn.
+
+# Footer copyright message
+# Linkyee is a 100% free, open-source project—feel free to modify the copyright message as you like. :)
+copyright: >
+  © 2024  <a href="https://sayakm.me" target="_blank">Sayak Mukhopadhyay</a>. Powered by <a href="https://github.com/SayakMukhopadhyay/link-pages" target="_blank">LinkPages</a>

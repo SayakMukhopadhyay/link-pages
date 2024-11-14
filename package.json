@@ -1,0 +1,35 @@
+{
+  "name": "link-pages",
+  "version": "1.0.0",
+  "description": "Open Source Linktree alternative written in Javascript ",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "scaffold": "node ./main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SayakMukhopadhyay/link-pages.git"
+  },
+  "keywords": [
+    "linktree"
+  ],
+  "author": "Sayak Mukhopadhyay",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/SayakMukhopadhyay/link-pages/issues"
+  },
+  "homepage": "https://github.com/SayakMukhopadhyay/link-pages#readme",
+  "dependencies": {
+    "@octokit/core": "^6.1.2",
+    "liquidjs": "^10.18.0",
+    "yaml": "^2.6.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.14.0",
+    "eslint": "^9.14.0",
+    "eslint-config-prettier": "^9.1.0",
+    "globals": "^15.12.0",
+    "prettier": "^3.3.3"
+  }
+}
